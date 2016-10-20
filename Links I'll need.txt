@@ -1,0 +1,2 @@
+https://braindrivendevelopment.com/2013/03/04/nosql-first-steps-with-ravendb-and-net/
+https://ravendb.net/docs/article-page/3.5/csharp/indexes/querying/basics

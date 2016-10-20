@@ -1,0 +1,1423 @@
+time,logger,level,database,threadid,message,exception
+2016-10-20 13:58:53.0591,Raven.Database.DocumentDatabase,Debug,<system>,1,Start loading the following database: <system>,
+2016-10-20 13:58:55.1017,Raven.Database.Impl.DocumentCacher,Info,<system>,1,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3170893824
+  PollingInterval     = 00:02:00",
+2016-10-20 13:58:55.1258,Raven.Database.Storage.Esent.StorageConfigurator,Info,<system>,1,"Esent Settings:
+  MaxVerPages      = 8192
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-10-20 13:58:55.1258,Raven.Storage.Esent.TransactionalStorage,Info,<system>,1,"Esent Settings:
+  MaxVerPages      = 8192
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-10-20 13:58:57.5187,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,1,Document with key 'Raven/Backup/Status' was not found,
+2016-10-20 13:58:57.7316,Raven.Database.DocumentDatabase,Debug,,1,Finish loading the following database: <system>,
+2016-10-20 13:58:57.8509,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,1,Document with key 'Raven/Counters/Enabled' was not found,
+2016-10-20 13:58:57.8559,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,1,Document with key 'Raven/Authorization/WindowsSettings' was not found,
+2016-10-20 13:58:57.8719,Raven.Database.Indexing.WorkContext,Debug,<system>,16,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-10-20 13:58:58.0370,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,No tasks to execute were found!,
+2016-10-20 13:58:58.0898,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,"Executed 0 tasks, processed documents: 0, took 349ms",
+2016-10-20 13:58:58.1067,Raven.Database.Indexing.WorkContext,Debug,<system>,15,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-10-20 13:59:22.9338,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,22,Request #  24: GET     -   794 ms -            - 200 - http://localhost:8080/databases?pageSize=1024&getAdditionalData=true,
+2016-10-20 13:59:22.9338,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,Request #  25: GET     -   795 ms -            - 200 - http://localhost:8080/fs?pageSize=1024&getAdditionalData=true,
+2016-10-20 13:59:22.9338,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,18,"Request #  26: GET     - 1,003 ms -            - 200 - http://localhost:8080/singleAuthToken",
+2016-10-20 13:59:22.9338,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,20,Request #  27: GET     -   869 ms -            - 200 - http://localhost:8080/studio-tasks/server-configs,
+2016-10-20 13:59:23.0483,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,24,Request #  29: GET     -    29 ms -            - 200 - http://localhost:8080/license/status,
+2016-10-20 13:59:23.0684,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,24,Document with key 'Raven/Alerts' was not found,
+2016-10-20 13:59:23.0684,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,24,Request #  30: GET     -     8 ms -            - 200 - http://localhost:8080/operation/alerts,
+2016-10-20 13:59:23.1444,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,23,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 13:59:23.1444,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,22,Document with key 'Raven/Alerts' was not found,
+2016-10-20 13:59:23.1554,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,Request #  33: POST    -   109 ms -            - 200 - http://localhost:8080/queries,
+2016-10-20 13:59:23.1554,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,"	Raven/StudioConfig
+
+Results count: 0, includes count: 0",
+2016-10-20 13:59:23.1554,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,22,Request #  34: POST    -   105 ms -            - 200 - http://localhost:8080/queries,
+2016-10-20 13:59:23.1554,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,22,"	Raven/Alerts
+
+Results count: 0, includes count: 0",
+2016-10-20 13:59:23.2310,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,Request #  35: GET     -    60 ms -            - 200 - http://localhost:8080/debug/plugins,
+2016-10-20 13:59:23.4065,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,22,Request #  36: GET     -    85 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-10-20 13:59:23.4065,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,Request #  37: GET     -    86 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-10-20 13:59:23.4065,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,20,Request #  38: GET     -    29 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-10-20 13:59:23.4260,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,20,Request #  39: GET     -     3 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-10-20 13:59:23.4260,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,23,Request #  40: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=watch-prefix&value=Raven%2FAlerts,
+2016-10-20 13:59:23.5841,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,24,Request #  41: GET     -   391 ms -            - 200 - http://localhost:8080/debug/config,
+2016-10-20 13:59:23.5896,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,24,Request #  42: GET     -     0 ms -            - 200 - http://localhost:8080/debug/config,
+2016-10-20 13:59:23.8000,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,18,Request #  43: GET     -     5 ms -            - 200 - http://localhost:8080/build/version,
+2016-10-20 13:59:24.2886,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,18,Request #  44: GET     -   478 ms -            - 200 - http://localhost:8080/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=34999,
+2016-10-20 13:59:25.1800,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,14,"Request #  45: GET     - 2,001 ms -            - 200 - http://localhost:8080/stats",
+2016-10-20 13:59:25.1855,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,14,Request #  46: GET     -     0 ms -            - 200 - http://localhost:8080/stats,
+2016-10-20 13:59:27.1814,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,12,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 13:59:57.0906,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,21,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:00:27.0919,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,12,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:00:57.1056,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,29,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:01:27.1056,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,17,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:01:57.1057,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,30,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:02:27.1058,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,31,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:02:30.9722,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,32,Document with key 'Raven/Databases/RavenDBFirstSteps' was not found,
+2016-10-20 14:02:30.9722,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,35,Document with key 'Raven/Databases/RavenDBFirstSteps' was not found,
+2016-10-20 14:02:30.9832,Raven.Database.Server.Controllers.RavenDbApiController,Warn,,32,Could not find a database named: RavenDBFirstSteps,
+2016-10-20 14:02:30.9832,Raven.Database.Server.WebApi.RequestManager,Debug,,32,Request #  47: GET     -    22 ms - RavenDBFirstSteps - 503 - http://localhost:8080/databases/RavenDBFirstSteps/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:02:57.1060,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,25,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:03:01.2339,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,36,Request #  48: GET     -     0 ms -            - 200 - http://localhost:8080/stats,
+2016-10-20 14:03:01.2339,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,32,Request #  49: GET     -     2 ms -            - 200 - http://localhost:8080/debug/plugins,
+2016-10-20 14:03:01.2339,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,37,Request #  50: GET     -     0 ms -            - 200 - http://localhost:8080/debug/config,
+2016-10-20 14:03:01.2469,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,36,Request #  51: GET     -     3 ms -            - 200 - http://localhost:8080/stats,
+2016-10-20 14:03:01.2469,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,37,Request #  52: GET     -     0 ms -            - 200 - http://localhost:8080/debug/config,
+2016-10-20 14:03:12.1585,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,37,Document with key 'Raven/Databases/Candidates' was not found,
+2016-10-20 14:03:12.3471,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,37,Document with key 'Raven/Databases/Candidates' was not found,
+2016-10-20 14:03:12.3764,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,37,"Inserted a new document with key 'Raven/Databases/Candidates', update: False, ",
+2016-10-20 14:03:12.3922,Raven.Database.Server.Tenancy.AbstractLandlord`1,Info,<system>,37,Shutting down database Candidates because the tenant database has been updated or removed,
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.WorkContext,Debug,<system>,37,Incremented work counter to 1 because: PUT Raven/Databases/Candidates,
+2016-10-20 14:03:12.3922,Raven.Database.DocumentDatabase,Debug,<system>,37,Put document Raven/Databases/Candidates with etag 01000000-0000-0001-0000-000000000001,
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,No tasks to execute were found!,
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,No tasks to execute were found!,
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:12.3922,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,37,Request #  54: PUT     -   344 ms -            - 200 - http://localhost:8080/admin/databases/Candidates,
+2016-10-20 14:03:12.3922,Raven.Database.Indexing.WorkContext,Debug,<system>,15,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:12.4027,Raven.Database.Indexing.WorkContext,Debug,<system>,16,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:12.4027,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,36,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:03:12.4197,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,37,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:03:12.5063,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,37,Request #  55: GET     -    89 ms -            - 200 - http://localhost:8080/docs/Raven/Databases/Candidates,
+2016-10-20 14:03:12.5475,Raven.Database.DocumentDatabase,Debug,Candidates,29,Start loading the following database: Candidates,
+2016-10-20 14:03:12.5475,Raven.Database.Impl.DocumentCacher,Info,Candidates,29,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3170893824
+  PollingInterval     = 00:02:00",
+2016-10-20 14:03:12.5915,Raven.Database.Storage.Esent.StorageConfigurator,Info,Candidates,29,"Esent Settings:
+  MaxVerPages      = 8192
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-10-20 14:03:12.5915,Raven.Storage.Esent.TransactionalStorage,Info,Candidates,29,"Esent Settings:
+  MaxVerPages      = 8192
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2016-10-20 14:03:13.6381,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,29,Document with key 'Raven/Backup/Status' was not found,
+2016-10-20 14:03:13.6381,Raven.Database.DocumentDatabase,Debug,,29,Finish loading the following database: Candidates,
+2016-10-20 14:03:13.6381,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,No tasks to execute were found!,
+2016-10-20 14:03:13.6381,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:13.6381,Raven.Database.Indexing.WorkContext,Debug,Candidates,40,"No work was found, workerWorkCounter: 0, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:13.6381,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 0, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:13.7082,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,36,Document with key 'IndexId1' was not found,
+2016-10-20 14:03:15.0729,Raven.Database.Linq.QueryParsingUtils,Debug,Candidates,36,"Index Index_Raven_DocumentsByEntityName in database Candidates was compiled, cached and stored on disk (at C:\C# Projects\StudentVoting_MECHS\packages\RavenDB.Server.3.0.30155\tools\CompiledIndexCache\) and loaded to assembly",
+2016-10-20 14:03:15.0749,Raven.Database.Storage.IndexDefinitionStorage,Info,Candidates,36,"New index Raven/DocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+    Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+    LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+    LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Raven.Database.Indexing;
+
+public class Index_Raven_DocumentsByEntityName : Raven.Database.Linq.AbstractViewGenerator
+{
+	public Index_Raven_DocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+select new 
+{ 
+    Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""], 
+    LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""],
+    LastModifiedTicks = ((DateTime)doc[""""@metadata""""][""""Last-Modified""""]).Ticks 
+};"";
+		this.AddMapDefinition(docs => 
+			from doc in ((IEnumerable<dynamic>)docs)
+			select new {
+				Tag = doc[""@metadata""][""Raven-Entity-Name""],
+				LastModified = (DateTime)doc[""@metadata""][""Last-Modified""],
+				LastModifiedTicks = ((DateTime)doc[""@metadata""][""Last-Modified""]).Ticks,
+				__document_id = doc.__document_id
+			});
+		this.AddField(""Tag"");
+		this.AddField(""LastModified"");
+		this.AddField(""LastModifiedTicks"");
+		this.AddField(""__document_id"");
+		this.AddQueryParameterForMap(""Ticks"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""Ticks"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2016-10-20 14:03:15.2589,Raven.Database.Indexing.IndexStorage,Debug,Candidates,36,Creating index 1 with id Raven/DocumentsByEntityName,
+2016-10-20 14:03:15.5564,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,36,Creating index for Raven/DocumentsByEntityName,
+2016-10-20 14:03:15.5815,Raven.Database.Indexing.WorkContext,Debug,Candidates,36,Incremented work counter to 1 because: PUT INDEX Raven/DocumentsByEntityName,
+2016-10-20 14:03:15.5815,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:15.6075,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,32,Request #  57: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:03:15.6075,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,36,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:15.6075,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,36,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:15.6075,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request #  58: GET     -     4 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/studio-tasks/config,
+2016-10-20 14:03:15.6075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,No tasks to execute were found!,
+2016-10-20 14:03:15.6075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Executed 0 tasks, processed documents: 0, took 22ms",
+2016-10-20 14:03:15.6075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,No tasks to execute were found!,
+2016-10-20 14:03:15.6075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:15.6250,Raven.Database.Indexing.IndexStorage,Debug,Candidates,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 4ms",
+2016-10-20 14:03:15.6250,Raven.Database.Indexing.WorkContext,Debug,Candidates,40,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:15.6615,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request #  59: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=d91Lp&command=watch-docs,
+2016-10-20 14:03:15.6615,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,32,Request #  60: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=d91Lp&command=watch-indexes,
+2016-10-20 14:03:15.6615,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  61: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=d91Lp&command=watch-bulk-operation,
+2016-10-20 14:03:15.6785,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  62: GET     -    72 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:15.6916,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  63: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:21.0355,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,37,Document with key 'Raven/Hilo/students' was not found,
+2016-10-20 14:03:21.0355,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,37,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:03:21.0355,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  64: GET     -     3 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:03:21.0355,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,"Results count: 2, includes count: 0",
+2016-10-20 14:03:21.2424,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,12,"Inserted a new document with key 'Raven/Hilo/students', update: False, ",
+2016-10-20 14:03:21.2887,Raven.Database.Indexing.WorkContext,Debug,Candidates,12,Incremented work counter to 2 because: PUT Raven/Hilo/students,
+2016-10-20 14:03:21.2887,Raven.Database.DocumentDatabase,Debug,Candidates,12,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000001,
+2016-10-20 14:03:21.2887,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 2, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:21.2887,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,12,Request #  65: PUT     -    62 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:03:21.2972,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  66: GET     -     4 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:21.4078,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,29,"	PUT students/1
+",
+2016-10-20 14:03:21.4078,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,29,"Inserted a new document with key 'students/1', update: False, ",
+2016-10-20 14:03:21.4078,Raven.Database.DocumentDatabase,Debug,Candidates,29,Put document students/1 with etag 01000000-0000-0001-0000-000000000002,
+2016-10-20 14:03:21.4233,Raven.Database.Indexing.WorkContext,Debug,Candidates,29,Incremented work counter to 3 because: PUT students/1,
+2016-10-20 14:03:21.4233,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 3, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:21.4233,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:03:21.4233,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we already have a document with 01000000-0000-0001-0000-000000000002 etag in the queue.,
+2016-10-20 14:03:21.4233,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,29,Request #  67: POST    -    37 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:03:21.4348,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 00000000-0000-0000-0000-000000000000: (Raven/Hilo/students),
+2016-10-20 14:03:21.5174,Raven.Database.Impl.DocumentRetriever,Debug,,29,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:03:21.5174,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:03:21.5174,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 00000000-0000-0000-0000-000000000000: (Raven/Hilo/students)",
+2016-10-20 14:03:21.5299,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:03:21.6880,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:03:21.6880,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000001 for Raven/DocumentsByEntityName",
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 4 because: WORK BY IndexingExecuter,
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 4, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:21.7075,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:03:21.7075,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000002,
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000001: (students/1),
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000001: (students/1)",
+2016-10-20 14:03:21.7075,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/1),
+2016-10-20 14:03:21.8511,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/1 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/1
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:03:21.4133688Z
+	LastModifiedTicks I-: 636125834014133688
+",
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000002 for Raven/DocumentsByEntityName",
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 5 because: WORK BY IndexingExecuter,
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 5, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:22.0508,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:22.0688,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 17ms",
+2016-10-20 14:03:22.0688,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 5, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:25.3017,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,37,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:25.3017,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,37,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:25.3017,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  68: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/studio-tasks/config,
+2016-10-20 14:03:25.3167,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  69: GET     -    14 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:26.4199,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,38,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:26.4199,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,38,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:03:26.4199,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  70: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/studio-tasks/config,
+2016-10-20 14:03:26.4679,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,Document with key 'Raven/Javascript/Functions' was not found,
+2016-10-20 14:03:26.4679,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,36,Document with key 'Raven/Alerts' was not found,
+2016-10-20 14:03:26.4199,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request #  71: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:26.4679,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request #  73: GET     -     1 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs/Raven/Javascript/Functions,
+2016-10-20 14:03:26.4589,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,32,Request #  72: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:03:26.4679,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request #  74: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/operation/alerts,
+2016-10-20 14:03:26.5620,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  75: GET     -    96 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:26.9093,Raven.Database.Indexing.Index.Querying,Debug,Candidates,38,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:03:26.9483,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,38,"	Query: Tag:Students
+	Time: 163 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2016-10-20 14:03:26.9578,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  77: GET     -   218 ms - Candidates - 200 - http://multi.get/databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0,
+2016-10-20 14:03:26.9668,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,"	Query: Tag:Students
+	Time: 163 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:26.9668,Raven.Database.Server.WebApi.RequestManager,Debug,,38,Request #  78: POST    -   373 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/multi_get?parallel=yes,
+2016-10-20 14:03:26.9668,Raven.Database.Server.WebApi.RequestManager,Debug,,38,"	0: databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0			Query: Tag:Students
+	Time: 163 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:27.0129,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,38,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:03:27.0129,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  79: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:03:27.0129,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:03:27.0869,Raven.Database.Indexing.Index.Querying,Debug,Candidates,36,Issuing query on index Raven/DocumentsByEntityName for all documents,
+2016-10-20 14:03:27.0899,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,36,"	Query: 
+	Time: 6 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2016-10-20 14:03:27.0899,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,32,Request #  80: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:27.0899,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request #  81: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:27.0899,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request #  82: GET     -     6 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:03:27.1084,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,12,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:03:27.1084,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,"	Query: 
+	Time: 6 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:27.2689,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request #  83: GET     -   145 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:03:26+GMT,
+2016-10-20 14:03:27.3204,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,38,Request #  84: GET     -   238 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=31,
+2016-10-20 14:03:37.0829,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:03:37.0829,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 171: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:03:37.1179,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,"	Raven/Hilo/students
+
+Results count: 1, includes count: 0",
+2016-10-20 14:03:37.1309,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,46,"	Query: 
+	Time: 0 ms
+",
+2016-10-20 14:03:37.1309,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 172: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=1,
+2016-10-20 14:03:37.1364,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,46,Request # 173: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:03:37.1364,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,46,"	Query: 
+	Time: 0 ms",
+2016-10-20 14:03:37.9280,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,Document with key 'Raven/Javascript/Functions' was not found,
+2016-10-20 14:03:37.9280,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,37,Document with key 'Raven/Alerts' was not found,
+2016-10-20 14:03:37.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,46,Request # 179: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:03:37.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 180: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs/Raven/Javascript/Functions,
+2016-10-20 14:03:37.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,37,Request # 181: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/operation/alerts,
+2016-10-20 14:03:37.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 182: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:37.9800,Raven.Database.Indexing.Index.Querying,Debug,Candidates,45,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:03:37.9820,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,45,"	Query: Tag:Students
+	Time: 2 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2016-10-20 14:03:37.9820,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 184: GET     -     3 ms - Candidates - 200 - http://multi.get/databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0,
+2016-10-20 14:03:37.9820,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,"	Query: Tag:Students
+	Time: 2 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:37.9820,Raven.Database.Server.WebApi.RequestManager,Debug,,45,Request # 185: POST    -    15 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/multi_get?parallel=yes,
+2016-10-20 14:03:37.9975,Raven.Database.Server.WebApi.RequestManager,Debug,,45,"	0: databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0			Query: Tag:Students
+	Time: 2 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:38.0270,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,36,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:03:38.0270,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:03:38.0270,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 187: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:03:38.0270,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:03:38.0270,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 188: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:03:38.0445,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:03:38.3232,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,36,"	Query: 
+	Time: 0 ms
+",
+2016-10-20 14:03:38.3232,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 195: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:03:38.3273,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,"	Query: 
+	Time: 0 ms",
+2016-10-20 14:03:38.3273,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 196: GET     -    11 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:03:43.6283,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,12,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:03:43.8332,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,45,"	DELETE Raven/Hilo/students
+",
+2016-10-20 14:03:43.8332,Raven.Database.DocumentDatabase,Debug,Candidates,45,Delete a document with key: Raven/Hilo/students and etag ,
+2016-10-20 14:03:43.8448,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:03:43.8553,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,Document with key 'Raven/Hilo/students' was deleted,
+2016-10-20 14:03:43.8784,Raven.Database.Indexing.WorkContext,Debug,Candidates,45,Incremented work counter to 6 because: DEL Raven/Hilo/students,
+2016-10-20 14:03:43.8784,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 6, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:43.8784,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 197: POST    -    46 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:03:43.8905,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 198: GET     -     4 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:43.8905,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 199: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:43.9140,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 200: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:03:43.9260,Raven.Database.Indexing.Index.Querying,Debug,Candidates,36,Issuing query on index Raven/DocumentsByEntityName for all documents,
+2016-10-20 14:03:43.9260,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,36,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:
+",
+2016-10-20 14:03:43.9260,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 201: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:03:43.9455,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 1 total.
+	Timing:",
+2016-10-20 14:03:43.9605,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 202: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:03:37+GMT,
+2016-10-20 14:03:43.9740,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Fetched task id: 1,
+2016-10-20 14:03:43.9805,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,36,"	Query: 
+	Time: 0 ms
+",
+2016-10-20 14:03:43.9805,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 203: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:03:43.9805,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 204: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:03:43.9805,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,"	Query: 
+	Time: 0 ms",
+2016-10-20 14:03:43.9805,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executing RemoveFromIndexTask for index: Raven/DocumentsByEntityName (id: 1, task id: 1), details: Index: 1, Keys Count: 1, Keys: Raven/Hilo/students",
+2016-10-20 14:03:43.9970,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'Raven/Hilo/students' was not found,
+2016-10-20 14:03:43.9970,Raven.Database.Indexing.Index.Indexing,Debug,,40,Deleting (Raven/Hilo/students) from Raven/DocumentsByEntityName,
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Task for index: Raven/DocumentsByEntityName (id: 1, task id: 1) has finished, took 26ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 1 tasks, processed documents: 1, took 143ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 7 because: WORK BY IndexingExecuter,
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 7, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:03:44.0205,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 7, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:46.6256,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 17, count after: 17",
+2016-10-20 14:03:49.0371,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,36,Request # 205: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:49.0371,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 206: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:49.0466,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 207: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:03:43+GMT,
+2016-10-20 14:03:56.9527,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,Document with key 'Raven/Hilo/students' was not found,
+2016-10-20 14:03:56.9527,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:03:56.9527,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 208: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:03:56.9527,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,"Results count: 2, includes count: 0",
+2016-10-20 14:03:57.1248,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,48,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:03:57.1248,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,12,"Inserted a new document with key 'Raven/Hilo/students', update: False, ",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.WorkContext,Debug,Candidates,12,Incremented work counter to 8 because: PUT Raven/Hilo/students,
+2016-10-20 14:03:57.1248,Raven.Database.DocumentDatabase,Debug,Candidates,12,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000003,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 8, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:57.1248,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:03:57.1248,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000003,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000002: (Raven/Hilo/students),
+2016-10-20 14:03:57.1248,Raven.Database.Impl.DocumentRetriever,Debug,,33,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000002: (Raven/Hilo/students)",
+2016-10-20 14:03:57.1248,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,12,Request # 209: PUT     -     1 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000003 for Raven/DocumentsByEntityName",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 9 because: WORK BY IndexingExecuter,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 9, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:03:57.1248,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 9, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:03:57.1248,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 210: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:03:57.1248,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 211: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:03:57.1459,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 212: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:03:49+GMT,
+2016-10-20 14:03:57.2084,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,48,"	PUT students/1
+",
+2016-10-20 14:03:57.2199,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,48,Request # 213: POST    -    10 ms - Candidates - 409 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:04:02.1415,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 214: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:04:02.1415,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 215: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:04:02.1551,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 216: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:03:56+GMT,
+2016-10-20 14:04:13.6380,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,33,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:04:27.1373,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,47,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:04:35.5280,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,50,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000003",
+2016-10-20 14:04:35.5280,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,50,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:04:35.5280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 217: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:04:35.5280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,"Results count: 2, includes count: 0",
+2016-10-20 14:04:35.6170,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,47,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.WorkContext,Debug,Candidates,47,Incremented work counter to 10 because: PUT Raven/Hilo/students,
+2016-10-20 14:04:35.6170,Raven.Database.DocumentDatabase,Debug,Candidates,47,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000004,
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 10, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:04:35.6170,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:04:35.6170,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000004,
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000003: (Raven/Hilo/students),
+2016-10-20 14:04:35.6170,Raven.Database.Impl.DocumentRetriever,Debug,,29,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000003: (Raven/Hilo/students)",
+2016-10-20 14:04:35.6170,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,47,Request # 218: PUT     -     2 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:04:35.6170,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000004 for Raven/DocumentsByEntityName",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 11 because: WORK BY IndexingExecuter,
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 11, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:04:35.6220,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 11, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:04:35.6220,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 219: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:04:35.6220,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 220: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:04:35.6411,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 221: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:04:02+GMT,
+2016-10-20 14:04:35.7842,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,29,"	PUT students/33
+",
+2016-10-20 14:04:35.7842,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,29,"Inserted a new document with key 'students/33', update: False, ",
+2016-10-20 14:04:35.7842,Raven.Database.DocumentDatabase,Debug,Candidates,29,Put document students/33 with etag 01000000-0000-0001-0000-000000000005,
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.WorkContext,Debug,Candidates,29,Incremented work counter to 12 because: PUT students/33,
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 12, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:04:35.7842,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:04:35.7842,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000005,
+2016-10-20 14:04:35.7842,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,29,Request # 222: POST    -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000004: (students/33),
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000004: (students/33)",
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/33),
+2016-10-20 14:04:35.7842,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/33 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/33
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:04:35.7842141Z
+	LastModifiedTicks I-: 636125834757842141
+",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000005 for Raven/DocumentsByEntityName",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 13 because: WORK BY IndexingExecuter,
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 13, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 6ms",
+2016-10-20 14:04:35.8274,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 13, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:04:38.8058,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,50,Request # 223: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=unwatch-prefix&value=Raven%2FDatabases%2F,
+2016-10-20 14:04:38.8133,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,53,Request # 224: GET     -     2 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=unwatch-prefix&value=Raven%2FFileSystems%2F,
+2016-10-20 14:04:38.8133,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 225: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=unwatch-prefix&value=Raven%2FCounters%2F,
+2016-10-20 14:04:38.8133,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,57,Request # 226: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=unwatch-prefix&value=Raven%2FStudioConfig,
+2016-10-20 14:04:38.8369,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,57,Request # 227: GET     -     5 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=unwatch-prefix&value=Raven%2FAlerts,
+2016-10-20 14:04:38.9034,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 237: GET     -    83 ms -            - 200 - http://localhost:8080/changes/config?id=STrhq&command=disconnect,
+2016-10-20 14:04:38.9034,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 238: GET     -    87 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=d91Lp&command=disconnect,
+2016-10-20 14:04:39.8282,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,53,Request # 250: GET     -     0 ms -            - 200 - http://localhost:8080/singleAuthToken,
+2016-10-20 14:04:39.8592,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,53,Request # 252: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=watch-prefix&value=Raven%2FDatabases%2F,
+2016-10-20 14:04:39.8592,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,57,Request # 253: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=watch-prefix&value=Raven%2FFileSystems%2F,
+2016-10-20 14:04:39.8592,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,49,Request # 255: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=watch-prefix&value=Raven%2FStudioConfig,
+2016-10-20 14:04:39.8592,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 254: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=watch-prefix&value=Raven%2FCounters%2F,
+2016-10-20 14:04:39.8592,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,50,Request # 256: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=watch-prefix&value=Raven%2FAlerts,
+2016-10-20 14:04:39.8817,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,50,Request # 258: GET     -     0 ms -            - 200 - http://localhost:8080/studio-tasks/server-configs,
+2016-10-20 14:04:39.8817,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,58,Request # 259: GET     -     0 ms -            - 200 - http://localhost:8080/fs?pageSize=1024&getAdditionalData=true,
+2016-10-20 14:04:39.8877,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 260: GET     -     6 ms -            - 200 - http://localhost:8080/databases?pageSize=1024&getAdditionalData=true,
+2016-10-20 14:04:39.9443,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,52,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:04:39.9443,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,49,Document with key 'Raven/Alerts' was not found,
+2016-10-20 14:04:39.9443,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 261: POST    -     0 ms -            - 200 - http://localhost:8080/queries,
+2016-10-20 14:04:39.9443,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,58,Request # 262: GET     -     0 ms -            - 200 - http://localhost:8080/build/version,
+2016-10-20 14:04:39.9443,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,53,Request # 263: GET     -     0 ms -            - 200 - http://localhost:8080/license/status,
+2016-10-20 14:04:39.9508,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,"	Raven/StudioConfig
+
+Results count: 0, includes count: 0",
+2016-10-20 14:04:39.9508,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,58,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:04:39.9443,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,49,Request # 265: POST    -     0 ms -            - 200 - http://localhost:8080/queries,
+2016-10-20 14:04:39.9508,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,58,Document with key 'Raven/StudioConfig' was not found,
+2016-10-20 14:04:39.9508,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,49,"	Raven/Alerts
+
+Results count: 0, includes count: 0",
+2016-10-20 14:04:39.9508,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,58,Request # 266: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/studio-tasks/config,
+2016-10-20 14:04:39.9668,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 267: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:04:39.9668,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 268: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:04:40.0308,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,58,Document with key 'Raven/Javascript/Functions' was not found,
+2016-10-20 14:04:40.0308,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,49,Document with key 'Raven/Alerts' was not found,
+2016-10-20 14:04:40.0213,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 269: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:04:40.0308,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,58,Request # 270: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs/Raven/Javascript/Functions,
+2016-10-20 14:04:40.0308,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 272: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:04:40.0308,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 271: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/operation/alerts,
+2016-10-20 14:04:40.0649,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 274: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=zrwie&command=watch-indexes,
+2016-10-20 14:04:40.0649,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,57,Request # 276: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=zrwie&command=watch-docs,
+2016-10-20 14:04:40.0649,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,58,Request # 275: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/changes/config?id=zrwie&command=watch-bulk-operation,
+2016-10-20 14:04:40.0649,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 277: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:04:40.0989,Raven.Database.Indexing.Index.Querying,Debug,Candidates,50,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:04:40.0989,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,50,"	Query: Tag:Students
+	Time: 3 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:
+",
+2016-10-20 14:04:40.0989,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 278: GET     -     4 ms - Candidates - 200 - http://multi.get/databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0,
+2016-10-20 14:04:40.0989,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,"	Query: Tag:Students
+	Time: 3 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:",
+2016-10-20 14:04:40.0989,Raven.Database.Server.WebApi.RequestManager,Debug,,50,Request # 279: POST    -     8 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/multi_get?parallel=yes,
+2016-10-20 14:04:40.0989,Raven.Database.Server.WebApi.RequestManager,Debug,,50,"	0: databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0			Query: Tag:Students
+	Time: 3 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:",
+2016-10-20 14:04:40.1354,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,50,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:04:40.1354,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 281: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:04:40.1354,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:04:40.3155,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,52,Request # 283: GET     -   332 ms -            - 200 - http://localhost:8080/studio-tasks/latest-server-build-version?stableOnly=true&min=3000&max=34999,
+2016-10-20 14:04:40.6443,Raven.Database.Indexing.Index.Querying,Debug,Candidates,50,Issuing query on index Raven/DocumentsByEntityName for all documents,
+2016-10-20 14:04:40.6443,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,50,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:
+",
+2016-10-20 14:04:40.6443,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 284: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=31,
+2016-10-20 14:04:40.6443,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 285: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:04:40.6443,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:",
+2016-10-20 14:04:43.1955,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,49,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000004",
+2016-10-20 14:04:43.1955,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 371: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:04:43.1955,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,"	Raven/Hilo/students
+
+Results count: 1, includes count: 0",
+2016-10-20 14:04:43.6523,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,55,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:04:46.5852,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,50,Document with key 'Raven/Alerts' was not found,
+2016-10-20 14:04:46.5852,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,57,Document with key 'Raven/Javascript/Functions' was not found,
+2016-10-20 14:04:46.5852,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 385: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/singleAuthToken,
+2016-10-20 14:04:46.5852,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,57,Request # 386: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs/Raven/Javascript/Functions,
+2016-10-20 14:04:46.5852,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 387: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/operation/alerts,
+2016-10-20 14:04:46.5852,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 388: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:04:46.6267,Raven.Database.Indexing.Index.Querying,Debug,Candidates,52,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:04:46.6267,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,52,"	Query: Tag:Students
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:
+",
+2016-10-20 14:04:46.6267,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 389: GET     -     0 ms - Candidates - 200 - http://multi.get/databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0,
+2016-10-20 14:04:46.6267,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Query: Tag:Students
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:",
+2016-10-20 14:04:46.6267,Raven.Database.Server.WebApi.RequestManager,Debug,,52,Request # 390: POST    -     4 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/multi_get?parallel=yes,
+2016-10-20 14:04:46.6267,Raven.Database.Server.WebApi.RequestManager,Debug,,52,"	0: databases/Candidates/indexes/Raven/DocumentsByEntityName?&query=Tag:Students&pageSize=0			Query: Tag:Students
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 2 total.
+	Timing:",
+2016-10-20 14:04:46.6698,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,52,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:04:46.6698,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 391: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:04:46.6698,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,50,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:04:46.6698,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:04:46.6698,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 392: POST    -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:04:46.6698,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:04:46.9662,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,52,"	Query: 
+	Time: 0 ms
+",
+2016-10-20 14:04:46.9662,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 393: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:04:46.9662,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,50,Request # 394: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:04:46.9662,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Query: 
+	Time: 0 ms",
+2016-10-20 14:04:57.1381,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,47,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:05:13.6533,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,55,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:05:18.6387,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,52,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:05:18.6387,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,62,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:05:18.6387,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 395: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:05:18.6387,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:05:18.6387,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,62,Request # 396: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:05:18.6387,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,62,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:05:18.7753,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,62,Request # 397: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?startsWith=Raven%2F&exclude=&start=0&pageSize=30,
+2016-10-20 14:05:19.7821,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,62,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:05:19.7821,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,52,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:05:19.7821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,62,Request # 398: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:05:19.7821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,62,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:05:19.7821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 399: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:05:19.7821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:05:19.8446,Raven.Database.Indexing.Index.Querying,Debug,Candidates,52,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:05:19.8747,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,52,"Document with key 'students/33' was found, etag: 01000000-0000-0001-0000-000000000005",
+2016-10-20 14:05:19.8747,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,52,"Document with key 'students/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-10-20 14:05:19.8747,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,52,"	Query: Tag:Students
+	Time: 38 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 2 returned out of 2 total.
+	Timing:
+",
+2016-10-20 14:05:19.8747,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,Request # 400: GET     -    41 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=Tag:Students&start=0&pageSize=30&sort=-LastModifiedTicks,
+2016-10-20 14:05:19.8747,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,52,"	Query: Tag:Students
+	Time: 38 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 2 returned out of 2 total.
+	Timing:",
+2016-10-20 14:05:27.1527,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:05:43.6536,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,55,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:05:57.1534,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:06:13.6533,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,55,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:06:27.1540,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:06:43.6677,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,48,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:06:57.1682,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,29,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:07:13.6683,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,63,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:07:27.1690,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,29,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:07:43.6686,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,29,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:07:57.1838,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,29,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:08:01.2347,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,70,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000004",
+2016-10-20 14:08:01.2347,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,70,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:08:01.2347,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,70,Request # 401: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:08:01.2347,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,70,"Results count: 2, includes count: 0",
+2016-10-20 14:08:01.3257,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,66,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.WorkContext,Debug,Candidates,66,Incremented work counter to 14 because: PUT Raven/Hilo/students,
+2016-10-20 14:08:01.3257,Raven.Database.DocumentDatabase,Debug,Candidates,66,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000006,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 14, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:01.3257,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:08:01.3257,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000006,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000005: (Raven/Hilo/students),
+2016-10-20 14:08:01.3257,Raven.Database.Impl.DocumentRetriever,Debug,,65,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000005: (Raven/Hilo/students)",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:08:01.3257,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,66,Request # 402: PUT     -     1 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000006 for Raven/DocumentsByEntityName",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 15 because: WORK BY IndexingExecuter,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 15, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:08:01.3257,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 15, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:08:01.3257,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,70,Request # 403: GET     -     2 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:08:01.3414,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 404: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:08:01.3669,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 405: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:04:46+GMT,
+2016-10-20 14:08:01.5415,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,68,"	PUT students/65
+",
+2016-10-20 14:08:01.5415,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,68,"Inserted a new document with key 'students/65', update: False, ",
+2016-10-20 14:08:01.5415,Raven.Database.DocumentDatabase,Debug,Candidates,68,Put document students/65 with etag 01000000-0000-0001-0000-000000000007,
+2016-10-20 14:08:01.5415,Raven.Database.Indexing.WorkContext,Debug,Candidates,68,Incremented work counter to 16 because: PUT students/65,
+2016-10-20 14:08:01.5415,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 16, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:01.5415,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:08:01.5415,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000007,
+2016-10-20 14:08:01.5415,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000006: (students/65),
+2016-10-20 14:08:01.5430,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:08:01.5430,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000006: (students/65)",
+2016-10-20 14:08:01.5415,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,68,Request # 406: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:08:01.5430,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/65),
+2016-10-20 14:08:01.5430,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/65 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/65
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:08:01.5420936Z
+	LastModifiedTicks I-: 636125836815420936
+",
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000007 for Raven/DocumentsByEntityName",
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 17 because: WORK BY IndexingExecuter,
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 17, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:01.5700,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:01.5825,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 10ms",
+2016-10-20 14:08:01.5825,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 17, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:08:01.5825,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,72,Document with key 'student/1' was not found,
+2016-10-20 14:08:01.5825,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 407: GET     -    17 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs?id=student%2F1,
+2016-10-20 14:08:06.5741,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,70,Request # 408: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:08:06.5741,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 409: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:08:06.5741,Raven.Database.Indexing.Index.Querying,Debug,Candidates,72,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:08:06.5741,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 410: GET     -     3 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:08:01+GMT,
+2016-10-20 14:08:13.6689,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,68,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:08:27.1851,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,68,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:08:35.6946,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,72,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000006",
+2016-10-20 14:08:35.6946,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,72,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:08:35.6946,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 411: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:08:35.7006,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,"Results count: 2, includes count: 0",
+2016-10-20 14:08:35.7841,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,29,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.WorkContext,Debug,Candidates,29,Incremented work counter to 18 because: PUT Raven/Hilo/students,
+2016-10-20 14:08:35.8357,Raven.Database.DocumentDatabase,Debug,Candidates,29,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000008,
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 18, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:35.8357,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:08:35.8357,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000008,
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000007: (Raven/Hilo/students),
+2016-10-20 14:08:35.8357,Raven.Database.Impl.DocumentRetriever,Debug,,61,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000007: (Raven/Hilo/students)",
+2016-10-20 14:08:35.8357,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:08:35.8357,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,29,Request # 412: PUT     -    52 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000008 for Raven/DocumentsByEntityName",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 19 because: WORK BY IndexingExecuter,
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 19, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:08:35.8422,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 19, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:08:35.8422,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 413: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:08:35.8567,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,63,Request # 414: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:08:35.8747,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 415: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:08:06+GMT,
+2016-10-20 14:08:36.0193,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,61,"	PUT students/97
+",
+2016-10-20 14:08:36.0193,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,61,"Inserted a new document with key 'students/97', update: False, ",
+2016-10-20 14:08:36.0193,Raven.Database.DocumentDatabase,Debug,Candidates,61,Put document students/97 with etag 01000000-0000-0001-0000-000000000009,
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.WorkContext,Debug,Candidates,61,Incremented work counter to 20 because: PUT students/97,
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 20, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:36.0193,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:08:36.0193,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000009,
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000008: (students/97),
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000008: (students/97)",
+2016-10-20 14:08:36.0193,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,61,Request # 416: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/97),
+2016-10-20 14:08:36.0193,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/97 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/97
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:08:36.0193533Z
+	LastModifiedTicks I-: 636125837160193533
+",
+2016-10-20 14:08:36.0440,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,72,Document with key 'student/1' was not found,
+2016-10-20 14:08:36.0440,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 417: GET     -     0 ms - Candidates - 404 - http://localhost:8080/databases/Candidates/docs?id=student%2F1,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000009 for Raven/DocumentsByEntityName",
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 21 because: WORK BY IndexingExecuter,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 21, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:08:36.0779,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:08:36.0904,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 11ms",
+2016-10-20 14:08:36.0904,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 21, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:08:41.0821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,63,Request # 418: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:08:41.0821,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 419: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:08:41.0906,Raven.Database.Indexing.Index.Querying,Debug,Candidates,72,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:08:41.0906,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,72,Request # 420: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:08:35+GMT,
+2016-10-20 14:08:43.6685,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,66,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:08:46.6258,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 24, count after: 17",
+2016-10-20 14:08:57.1852,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,65,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:09:13.6687,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,65,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:09:27.1861,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,65,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:09:43.6689,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,68,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:09:57.1999,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:10:13.6704,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,66,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:10:27.1995,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,68,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:10:43.6703,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,61,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:10:57.2149,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:11:13.6836,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,61,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:11:27.2286,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,61,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:11:43.6836,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,65,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:11:57.2422,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,58,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:12:13.6859,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,58,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:12:27.2544,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,58,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:12:43.6855,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,60,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:12:57.2625,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,57,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:13:12.3982,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,No tasks to execute were found!,
+2016-10-20 14:13:12.3982,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:12.3982,Raven.Database.Indexing.WorkContext,Debug,<system>,15,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:12.4028,Raven.Database.Indexing.WorkContext,Debug,<system>,16,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:13.7021,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,66,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:13:27.2628,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,66,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:13:29.0859,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,54,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:13:29.0859,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,54,Request # 421: GET     -     1 ms -            - 200 - http://localhost:8080/docs?id=Raven%2FDatabases%2FCandidates,
+2016-10-20 14:13:29.1449,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-000000000008",
+2016-10-20 14:13:29.1449,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:13:29.1449,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 422: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:13:29.1449,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"Results count: 2, includes count: 0",
+2016-10-20 14:13:29.2005,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,57,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:13:29.2005,Raven.Database.Indexing.WorkContext,Debug,Candidates,57,Incremented work counter to 22 because: PUT Raven/Hilo/students,
+2016-10-20 14:13:29.2005,Raven.Database.DocumentDatabase,Debug,Candidates,57,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-00000000000A,
+2016-10-20 14:13:29.2005,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 22, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:29.2005,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,Didn't load any documents from previous batches. Loading documents directly from disk.,
+2016-10-20 14:13:29.2005,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,57,Request # 423: PUT     -     1 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:13:29.2005,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 424: GET     -     2 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:13:29.2191,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Loaded 1 documents (0 kb) from disk, starting from etag 01000000-0000-0001-0000-000000000009, took 12ms",
+2016-10-20 14:13:29.2191,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000A,
+2016-10-20 14:13:29.2191,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:13:29.2191,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000A,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000009: (Raven/Hilo/students),
+2016-10-20 14:13:29.2191,Raven.Database.Impl.DocumentRetriever,Debug,,66,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000009: (Raven/Hilo/students)",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000A for Raven/DocumentsByEntityName",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 23 because: WORK BY IndexingExecuter,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 23, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:13:29.2191,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 23, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:29.2311,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 425: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:13:29.2466,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 426: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:08:41+GMT,
+2016-10-20 14:13:29.3767,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,58,"	PUT students/129
+",
+2016-10-20 14:13:29.3767,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,58,"Inserted a new document with key 'students/129', update: False, ",
+2016-10-20 14:13:29.3767,Raven.Database.DocumentDatabase,Debug,Candidates,58,Put document students/129 with etag 01000000-0000-0001-0000-00000000000B,
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.WorkContext,Debug,Candidates,58,Incremented work counter to 24 because: PUT students/129,
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 24, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:29.3767,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,58,Request # 427: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:13:29.3767,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,Didn't load any documents from previous batches. Loading documents directly from disk.,
+2016-10-20 14:13:29.3767,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Loaded 1 documents (0 kb) from disk, starting from etag 01000000-0000-0001-0000-00000000000A, took 0ms",
+2016-10-20 14:13:29.3767,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000B,
+2016-10-20 14:13:29.3767,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:13:29.3767,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000B,
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000A: (students/129),
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000A: (students/129)",
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/129),
+2016-10-20 14:13:29.3767,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/129 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/129
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:13:29.3772389Z
+	LastModifiedTicks I-: 636125840093772389
+",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000B for Raven/DocumentsByEntityName",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 25 because: WORK BY IndexingExecuter,
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 25, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 9ms",
+2016-10-20 14:13:29.4182,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 25, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:34.4224,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 428: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:13:34.4224,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 429: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:13:34.4334,Raven.Database.Indexing.Index.Querying,Debug,Candidates,53,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:13:34.4334,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 430: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:13:29+GMT,
+2016-10-20 14:13:38.0206,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:13:38.0206,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:13:38.0206,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 431: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:38.0206,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:38.0206,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 432: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:38.0206,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:38.0927,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 433: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?startsWith=Raven%2F&exclude=&start=0&pageSize=30,
+2016-10-20 14:13:38.4897,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:13:38.4897,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:13:38.4897,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 434: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:38.4897,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 435: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:38.4897,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:38.4897,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:38.5353,Raven.Database.Indexing.Index.Querying,Debug,Candidates,54,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:13:38.5353,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/129' was found, etag: 01000000-0000-0001-0000-00000000000B",
+2016-10-20 14:13:38.5353,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/97' was found, etag: 01000000-0000-0001-0000-000000000009",
+2016-10-20 14:13:38.5353,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/65' was found, etag: 01000000-0000-0001-0000-000000000007",
+2016-10-20 14:13:38.5353,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/33' was found, etag: 01000000-0000-0001-0000-000000000005",
+2016-10-20 14:13:38.5353,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-10-20 14:13:38.5353,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,54,"	Query: Tag:Students
+	Time: 6 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 5 returned out of 5 total.
+	Timing:
+",
+2016-10-20 14:13:38.5353,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 436: GET     -     7 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=Tag:Students&start=0&pageSize=30&sort=-LastModifiedTicks,
+2016-10-20 14:13:38.5437,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Query: Tag:Students
+	Time: 6 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 5 returned out of 5 total.
+	Timing:",
+2016-10-20 14:13:43.7152,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,58,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:13:45.8772,Raven.Database.Indexing.Index.Querying,Debug,,55,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:13:45.8772,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 439: DELETE  -    17 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs/Raven/DocumentsByEntityName?query=Tag:Students&allowStale=true,
+2016-10-20 14:13:45.8772,Raven.Database.DocumentDatabase,Debug,,55,Delete a document with key: students/1 and etag ,
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,"Document with key 'students/1' was found, etag: 01000000-0000-0001-0000-000000000002",
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,Document with key 'students/1' was deleted,
+2016-10-20 14:13:45.8772,Raven.Database.DocumentDatabase,Debug,,55,Delete a document with key: students/33 and etag ,
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,"Document with key 'students/33' was found, etag: 01000000-0000-0001-0000-000000000005",
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,Document with key 'students/33' was deleted,
+2016-10-20 14:13:45.8772,Raven.Database.DocumentDatabase,Debug,,55,Delete a document with key: students/65 and etag ,
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,"Document with key 'students/65' was found, etag: 01000000-0000-0001-0000-000000000007",
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,Document with key 'students/65' was deleted,
+2016-10-20 14:13:45.8772,Raven.Database.DocumentDatabase,Debug,,55,Delete a document with key: students/97 and etag ,
+2016-10-20 14:13:45.8772,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,"Document with key 'students/97' was found, etag: 01000000-0000-0001-0000-000000000009",
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,Document with key 'students/97' was deleted,
+2016-10-20 14:13:45.8867,Raven.Database.DocumentDatabase,Debug,,55,Delete a document with key: students/129 and etag ,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,"Document with key 'students/129' was found, etag: 01000000-0000-0001-0000-00000000000B",
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,55,Document with key 'students/129' was deleted,
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.WorkContext,Debug,,55,"Incremented work counter to 26 because: DEL students/1, DEL students/33, DEL students/65, DEL students/97, DEL students/129",
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 26, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Fetched task id: 2,
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executing RemoveFromIndexTask for index: Raven/DocumentsByEntityName (id: 1, task id: 2), details: Index: 1, Keys Count: 5, Keys: students/1, students/33, students/65, students/97, students/129",
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'students/1' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'students/33' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'students/65' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'students/97' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,,40,Document with key 'students/129' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.Index.Indexing,Debug,,40,"Deleting (students/1, students/33, students/65, students/97, students/129) from Raven/DocumentsByEntityName",
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Task for index: Raven/DocumentsByEntityName (id: 1, task id: 2) has finished, took 5ms",
+2016-10-20 14:13:45.8867,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:13:45.8867,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 20ms",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 1 tasks, processed documents: 5, took 27ms",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 27 because: WORK BY IndexingExecuter,
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 27, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:13:45.9182,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 27, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:45.8867,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 440: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:45.8867,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 441: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:45.9468,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:45.9493,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,51,Request # 442: GET     -     2 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:13:45.9468,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:45.9713,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 443: GET     -    24 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/operation/status?id=1,
+2016-10-20 14:13:45.9713,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 444: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:13:46.0624,Raven.Database.Indexing.Index.Querying,Debug,Candidates,54,Issuing query on index Raven/DocumentsByEntityName for all documents,
+2016-10-20 14:13:46.0624,Raven.Database.Indexing.Index.Querying,Debug,Candidates,53,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:13:46.0624,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,54,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 0 total.
+	Timing:
+",
+2016-10-20 14:13:46.0624,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,49,Request # 445: GET     -     3 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:13:46.0624,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 446: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:13:34+GMT,
+2016-10-20 14:13:46.0624,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 447: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:13:46.0624,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Query: 
+	Time: 0 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 0 returned out of 0 total.
+	Timing:",
+2016-10-20 14:13:46.0989,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,53,"	Query: 
+	Time: 0 ms
+",
+2016-10-20 14:13:46.0989,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 448: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:13:46.0989,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 449: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:13:46.0989,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Query: 
+	Time: 0 ms",
+2016-10-20 14:13:46.6262,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 20, count after: 20",
+2016-10-20 14:13:49.6549,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:13:49.6549,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/Collection/System Documents' was not found,
+2016-10-20 14:13:49.6549,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 450: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:49.6549,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 451: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:49.6549,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:49.6549,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/Collection/System Documents
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:49.7030,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 452: GET     -     2 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/docs?startsWith=Raven%2F&exclude=&start=0&pageSize=30,
+2016-10-20 14:13:50.3721,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:13:50.3721,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/AllDocuments' was not found,
+2016-10-20 14:13:50.3721,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 453: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:50.3721,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:50.3721,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 454: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:13:50.3721,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/AllDocuments
+
+Results count: 0, includes count: 0",
+2016-10-20 14:13:50.4122,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,53,"	Query: 
+	Time: 1 ms
+",
+2016-10-20 14:13:50.4122,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 455: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/docs?start=0&pageSize=30,
+2016-10-20 14:13:50.4122,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 456: GET     -     1 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=&start=0&pageSize=0,
+2016-10-20 14:13:50.4122,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Query: 
+	Time: 1 ms",
+2016-10-20 14:13:50.9062,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 457: GET     -     0 ms - Candidates - 304 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:13:50.9062,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 458: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:13:50.9062,Raven.Database.Indexing.Index.Querying,Debug,Candidates,53,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:13:50.9062,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 459: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:13:45+GMT,
+2016-10-20 14:13:54.7507,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,53,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:13:54.7507,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,53,Request # 460: GET     -     0 ms -            - 200 - http://localhost:8080/docs?id=Raven%2FDatabases%2FCandidates,
+2016-10-20 14:13:54.8137,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-00000000000A",
+2016-10-20 14:13:54.8137,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:13:54.8137,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 461: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:13:54.8137,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"Results count: 2, includes count: 0",
+2016-10-20 14:13:54.8713,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,57,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.WorkContext,Debug,Candidates,57,Incremented work counter to 28 because: PUT Raven/Hilo/students,
+2016-10-20 14:13:54.8713,Raven.Database.DocumentDatabase,Debug,Candidates,57,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-00000000000C,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 28, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:54.8713,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:13:54.8713,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000C,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000B: (Raven/Hilo/students),
+2016-10-20 14:13:54.8713,Raven.Database.Impl.DocumentRetriever,Debug,,66,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000B: (Raven/Hilo/students)",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:13:54.8713,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,57,Request # 462: PUT     -     0 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000C for Raven/DocumentsByEntityName",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 29 because: WORK BY IndexingExecuter,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 29, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:13:54.8713,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 29, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:55.0256,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,66,"	PUT students/161
+",
+2016-10-20 14:13:55.0256,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,66,"Inserted a new document with key 'students/161', update: False, ",
+2016-10-20 14:13:55.0256,Raven.Database.DocumentDatabase,Debug,Candidates,66,Put document students/161 with etag 01000000-0000-0001-0000-00000000000D,
+2016-10-20 14:13:55.0256,Raven.Database.Indexing.WorkContext,Debug,Candidates,66,Incremented work counter to 30 because: PUT students/161,
+2016-10-20 14:13:55.0256,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 30, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:55.0256,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:13:55.0271,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000D,
+2016-10-20 14:13:55.0271,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000C: (students/161),
+2016-10-20 14:13:55.0271,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:13:55.0256,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,66,Request # 463: POST    -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:13:55.0271,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000C: (students/161)",
+2016-10-20 14:13:55.0271,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/161),
+2016-10-20 14:13:55.0271,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/161 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/161
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:13:55.0261513Z
+	LastModifiedTicks I-: 636125840350261513
+",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000D for Raven/DocumentsByEntityName",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 31 because: WORK BY IndexingExecuter,
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 31, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 8ms",
+2016-10-20 14:13:55.1078,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 31, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:13:57.2637,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,65,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:14:00.1246,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 464: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:14:00.1246,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 465: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:14:00.1949,Raven.Database.Indexing.Index.Querying,Debug,Candidates,53,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:14:00.1949,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 466: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:13:50+GMT,
+2016-10-20 14:14:01.0982,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,53,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:14:01.0982,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,Document with key 'Raven/Studio/Columns/Collection/Students' was not found,
+2016-10-20 14:14:01.0982,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,Request # 467: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:14:01.0982,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,53,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:14:01.0982,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 468: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries,
+2016-10-20 14:14:01.0982,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Raven/Studio/Columns/Collection/Students
+
+Results count: 0, includes count: 0",
+2016-10-20 14:14:01.1388,Raven.Database.Indexing.Index.Querying,Debug,Candidates,54,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:14:01.1388,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,54,"Document with key 'students/161' was found, etag: 01000000-0000-0001-0000-00000000000D",
+2016-10-20 14:14:01.1388,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,54,"	Query: Tag:Students
+	Time: 1 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 1 returned out of 1 total.
+	Timing:
+",
+2016-10-20 14:14:01.1388,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,Request # 469: GET     -     2 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/Raven/DocumentsByEntityName?query=Tag:Students&start=0&pageSize=30&sort=-LastModifiedTicks,
+2016-10-20 14:14:01.1553,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,54,"	Query: Tag:Students
+	Time: 1 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 1 returned out of 1 total.
+	Timing:",
+2016-10-20 14:14:13.7157,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:14:27.2783,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,65,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:14:43.7158,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,66,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:14:57.2791,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,65,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:15:13.7156,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,47,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:15:27.2796,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:15:43.7155,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:15:57.2803,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,58,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:16:11.5238,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,43,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:16:11.5238,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,43,Request # 470: GET     -     0 ms -            - 200 - http://localhost:8080/docs?id=Raven%2FDatabases%2FCandidates,
+2016-10-20 14:16:11.5888,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-00000000000C",
+2016-10-20 14:16:11.5888,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:16:11.5888,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 471: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:16:11.5908,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,"Results count: 2, includes count: 0",
+2016-10-20 14:16:11.6534,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,57,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.WorkContext,Debug,Candidates,57,Incremented work counter to 32 because: PUT Raven/Hilo/students,
+2016-10-20 14:16:11.6534,Raven.Database.DocumentDatabase,Debug,Candidates,57,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-00000000000E,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 32, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:16:11.6534,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:16:11.6534,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000E,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000D: (Raven/Hilo/students),
+2016-10-20 14:16:11.6534,Raven.Database.Impl.DocumentRetriever,Debug,,45,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000D: (Raven/Hilo/students)",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:16:11.6534,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,57,Request # 472: PUT     -     1 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000E for Raven/DocumentsByEntityName",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 33 because: WORK BY IndexingExecuter,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 33, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:16:11.6534,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 33, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:16:11.6839,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 473: GET     -     4 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:16:11.6839,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,42,Request # 474: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:16:11.7524,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 475: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:14:00+GMT,
+2016-10-20 14:16:11.8715,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,45,"	PUT students/193
+",
+2016-10-20 14:16:11.8715,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,45,"Inserted a new document with key 'students/193', update: False, ",
+2016-10-20 14:16:11.8715,Raven.Database.DocumentDatabase,Debug,Candidates,45,Put document students/193 with etag 01000000-0000-0001-0000-00000000000F,
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.WorkContext,Debug,Candidates,45,Incremented work counter to 34 because: PUT students/193,
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 34, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:16:11.8715,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:16:11.8715,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-00000000000F,
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000E: (students/193),
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000E: (students/193)",
+2016-10-20 14:16:11.8715,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,45,Request # 476: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/193),
+2016-10-20 14:16:11.8715,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/193 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/193
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:16:11.8715753Z
+	LastModifiedTicks I-: 636125841718715753
+",
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-00000000000F for Raven/DocumentsByEntityName",
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 35 because: WORK BY IndexingExecuter,
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 35, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:16:11.9027,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:16:11.9217,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 7ms",
+2016-10-20 14:16:11.9217,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 35, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:16:12.0129,Raven.Database.Indexing.Index.Querying,Debug,Candidates,43,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:16:12.0129,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,"Document with key 'students/161' was found, etag: 01000000-0000-0001-0000-00000000000D",
+2016-10-20 14:16:12.0129,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,43,"Document with key 'students/193' was found, etag: 01000000-0000-0001-0000-00000000000F",
+2016-10-20 14:16:12.0129,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,43,"	Query: Tag:Students
+	Time: 20 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 2 returned out of 2 total.
+	Timing:
+",
+2016-10-20 14:16:12.0129,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 477: GET     -    20 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/dynamic/Students?&pageSize=128,
+2016-10-20 14:16:12.0129,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,"	Query: Tag:Students
+	Time: 20 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 2 returned out of 2 total.
+	Timing:",
+2016-10-20 14:16:13.7155,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,45,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:16:16.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,42,Request # 478: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:16:16.9280,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 479: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:16:16.9396,Raven.Database.Indexing.Index.Querying,Debug,Candidates,43,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:16:16.9396,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,43,Request # 480: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:16:11+GMT,
+2016-10-20 14:16:27.2807,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,47,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:16:43.7152,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:16:57.2937,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:17:13.7161,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:17:27.2933,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:17:43.7171,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,38,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:17:57.2939,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,57,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:18:13.7314,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,46,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:18:27.2944,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,38,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:18:43.7470,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,37,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:18:46.6263,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 24, count after: 24",
+2016-10-20 14:18:57.3089,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:19:12.2509,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,<system>,35,"Document with key 'Raven/Databases/Candidates' was found, etag: 01000000-0000-0001-0000-000000000001",
+2016-10-20 14:19:12.2509,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,35,Request # 481: GET     -     0 ms -            - 200 - http://localhost:8080/docs?id=Raven%2FDatabases%2FCandidates,
+2016-10-20 14:19:12.3140,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,35,"Document with key 'Raven/Hilo/students' was found, etag: 01000000-0000-0001-0000-00000000000E",
+2016-10-20 14:19:12.3140,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,35,Document with key 'Raven/ServerPrefixForHilo' was not found,
+2016-10-20 14:19:12.3140,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 482: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/queries/?&id=Raven%2FHilo%2Fstudents&id=Raven%2FServerPrefixForHilo,
+2016-10-20 14:19:12.3140,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,"Results count: 2, includes count: 0",
+2016-10-20 14:19:12.3685,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,39,"Inserted a new document with key 'Raven/Hilo/students', update: True, ",
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.WorkContext,Debug,Candidates,39,Incremented work counter to 36 because: PUT Raven/Hilo/students,
+2016-10-20 14:19:12.3685,Raven.Database.DocumentDatabase,Debug,Candidates,39,Put document Raven/Hilo/students with etag 01000000-0000-0001-0000-000000000010,
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 36, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:19:12.3685,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:19:12.3685,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000010,
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-00000000000F: (Raven/Hilo/students),
+2016-10-20 14:19:12.3685,Raven.Database.Impl.DocumentRetriever,Debug,,46,Trigger Raven.Database.Plugins.Builtins.FilterRavenInternalDocumentsReadTrigger asked us to ignore Raven/Hilo/students,
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-00000000000F: (Raven/Hilo/students)",
+2016-10-20 14:19:12.3685,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (Raven/Hilo/students),
+2016-10-20 14:19:12.3685,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,39,Request # 483: PUT     -     1 ms - Candidates - 201 - http://localhost:8080/databases/Candidates/docs/Raven/Hilo/students,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 0 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000010 for Raven/DocumentsByEntityName",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 37 because: WORK BY IndexingExecuter,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 37, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 0ms",
+2016-10-20 14:19:12.3725,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 37, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:19:12.3725,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 484: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:19:12.3865,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,33,Request # 485: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:19:12.4055,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 486: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:16:16+GMT,
+2016-10-20 14:19:12.5466,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,47,"	PUT students/225
+",
+2016-10-20 14:19:12.5466,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,47,"Inserted a new document with key 'students/225', update: False, ",
+2016-10-20 14:19:12.5466,Raven.Database.DocumentDatabase,Debug,Candidates,47,Put document students/225 with etag 01000000-0000-0001-0000-000000000011,
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.WorkContext,Debug,Candidates,47,Incremented work counter to 38 because: PUT students/225,
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 38, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:19:12.5466,Raven.Database.Prefetching.PrefetchingBehavior,Debug,Candidates,40,"Not enough results to fill requested count (512), but we have some (1) in memory. Going to index the results while loading more from disk in background.",
+2016-10-20 14:19:12.5466,Raven.Database.Prefetching.PrefetchingBehavior,Info,Candidates,40,Skipping background prefetching because we got no documents to fetch. Last etag: 01000000-0000-0001-0000-000000000011,
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Found a total of 1 documents that requires indexing since etag: 01000000-0000-0001-0000-000000000010: (students/225),
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After read triggers executed, 1 documents remained",
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"Going to index 1 documents in Index: Raven/DocumentsByEntityName, LastIndexedEtag: 01000000-0000-0001-0000-000000000010: (students/225)",
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,Indexing 1 documents for index: Raven/DocumentsByEntityName. (students/225),
+2016-10-20 14:19:12.5466,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,47,Request # 487: POST    -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/bulk_docs,
+2016-10-20 14:19:12.5466,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,"Indexing on students/225 result in index Raven/DocumentsByEntityName gave document: 	__document_id IS: students/225
+	Tag I-: Students
+	LastModified I-: 2016-10-20T18:19:12.5471245Z
+	LastModifiedTicks I-: 636125843525471245
+",
+2016-10-20 14:19:12.5731,Raven.Database.Indexing.Index.Indexing,Debug,Candidates,40,Indexed 1 documents for Raven/DocumentsByEntityName,
+2016-10-20 14:19:12.5731,Raven.Database.Indexing.IndexingExecuter,Debug,Candidates,40,"After indexing 1 documents, the new last etag for is: 01000000-0000-0001-0000-000000000011 for Raven/DocumentsByEntityName",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.WorkContext,Debug,,40,Incremented work counter to 39 because: WORK BY IndexingExecuter,
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 39, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.IndexStorage,Debug,,40,"Flushed simple map index: Raven/DocumentsByEntityName (id: 1), took 7ms",
+2016-10-20 14:19:12.5741,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 39, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:19:12.6216,Raven.Database.Indexing.Index.Querying,Debug,Candidates,35,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:19:12.6216,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,35,"Document with key 'students/161' was found, etag: 01000000-0000-0001-0000-00000000000D",
+2016-10-20 14:19:12.6216,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,35,"Document with key 'students/193' was found, etag: 01000000-0000-0001-0000-00000000000F",
+2016-10-20 14:19:12.6216,Raven.Database.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Candidates,35,"Document with key 'students/225' was found, etag: 01000000-0000-0001-0000-000000000011",
+2016-10-20 14:19:12.6216,Raven.Database.Server.Controllers.RavenBaseApiController,Debug,Candidates,35,"	Query: Tag:Students
+	Time: 1 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 3 returned out of 3 total.
+	Timing:
+",
+2016-10-20 14:19:12.6216,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 488: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/indexes/dynamic/Students?&pageSize=128,
+2016-10-20 14:19:12.6216,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,"	Query: Tag:Students
+	Time: 1 ms
+	Index: Raven/DocumentsByEntityName
+	Results: 3 returned out of 3 total.
+	Timing:",
+2016-10-20 14:19:13.7636,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:19:17.5804,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,33,Request # 489: GET     -     0 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/terms/Raven/DocumentsByEntityName?field=Tag&pageSize=1024,
+2016-10-20 14:19:17.5804,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 490: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/stats,
+2016-10-20 14:19:17.5909,Raven.Database.Indexing.Index.Querying,Debug,Candidates,35,Issuing query on index Raven/DocumentsByEntityName for: Tag:Students,
+2016-10-20 14:19:17.5909,Raven.Database.Server.WebApi.RequestManager,Debug,Candidates,35,Request # 491: GET     -     1 ms - Candidates - 200 - http://localhost:8080/databases/Candidates/studio-tasks/collection/counts?fromDate=Thu%2C+20+Oct+2016+18:19:12+GMT,
+2016-10-20 14:19:27.3095,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,37,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:19:43.7773,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,45,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:19:57.3244,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,57,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:20:13.7803,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,46,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:20:27.3243,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,57,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:20:43.7929,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,39,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:20:57.3259,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,38,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:21:13.7930,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:21:27.3261,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:21:43.7956,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,57,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:21:57.3409,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:22:13.7960,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,37,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:22:27.3407,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:22:43.8098,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,58,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:22:57.3401,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,45,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:23:12.3989,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,No tasks to execute were found!,
+2016-10-20 14:23:12.3989,Raven.Database.Indexing.IndexingExecuter,Debug,<system>,15,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:23:12.3989,Raven.Database.Indexing.WorkContext,Debug,<system>,15,"No work was found, workerWorkCounter: 1, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:23:12.4032,Raven.Database.Indexing.WorkContext,Debug,<system>,16,"No work was found, workerWorkCounter: 1, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:23:13.8244,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,39,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:23:27.3411,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,44,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:23:43.8256,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,45,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:23:46.6263,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 26, count after: 26",
+2016-10-20 14:23:57.3421,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,44,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:24:13.8404,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:24:27.3566,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,39,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:24:43.8410,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:24:57.3712,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,39,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:25:13.8403,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:25:27.3736,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:25:43.8403,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,39,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:25:57.3736,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,39,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:26:13.8419,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,44,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:26:27.3867,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:26:43.8428,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,46,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:26:57.3865,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:27:13.8562,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:27:27.3871,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,30,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:27:43.8718,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,46,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:27:57.3876,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,25,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:28:13.8720,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:28:27.3876,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:28:43.8720,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:28:46.6265,Raven.Database.Config.MemoryStatistics,Debug,,3,"Cleaning inactive low-memory handlers, count before: 26, count after: 26",
+2016-10-20 14:28:57.3887,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,46,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:29:12.5750,Raven.Database.Indexing.WorkContext,Debug,Candidates,41,"No work was found, workerWorkCounter: 39, for: ReducingExecuter, will wait for additional work",
+2016-10-20 14:29:12.5750,Raven.Database.Indexing.IndexingExecuter,Debug,,40,No tasks to execute were found!,
+2016-10-20 14:29:12.5750,Raven.Database.Indexing.IndexingExecuter,Debug,,40,"Executed 0 tasks, processed documents: 0, took 0ms",
+2016-10-20 14:29:12.5750,Raven.Database.Indexing.WorkContext,Debug,,40,"No work was found, workerWorkCounter: 39, for: IndexingExecuter, will wait for additional work",
+2016-10-20 14:29:13.8877,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,30,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:29:27.3886,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,19,Performing Transactions Cleanup Sequence for db <system>,
+2016-10-20 14:29:43.8877,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,Candidates,46,Performing Transactions Cleanup Sequence for db Candidates,
+2016-10-20 14:29:46.5593,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,32,Request # 492: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=unwatch-prefix&value=Raven%2FDatabases%2F,
+2016-10-20 14:29:46.5593,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,32,Request # 493: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=unwatch-prefix&value=Raven%2FFileSystems%2F,
+2016-10-20 14:29:46.5743,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,73,Request # 494: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=unwatch-prefix&value=Raven%2FCounters%2F,
+2016-10-20 14:29:46.5903,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,74,Request # 495: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=unwatch-prefix&value=Raven%2FStudioConfig,
+2016-10-20 14:29:46.6064,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,75,Request # 497: GET     -     1 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=disconnect,
+2016-10-20 14:29:46.6064,Raven.Database.Server.WebApi.RequestManager,Debug,<system>,76,Request # 496: GET     -     0 ms -            - 200 - http://localhost:8080/changes/config?id=gbLQp&command=unwatch-prefix&value=Raven%2FAlerts,
+2016-10-20 14:29:57.3890,Raven.Database.Impl.DTC.InFlightTransactionalState,Info,<system>,19,Performing Transactions Cleanup Sequence for db <system>,

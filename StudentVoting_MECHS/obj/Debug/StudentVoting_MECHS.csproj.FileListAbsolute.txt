@@ -1,0 +1,12 @@
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\StudentVoting_MECHS.exe.config
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\obj\Debug\StudentVoting_MECHS.csprojResolveAssemblyReference.cache
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\StudentVoting_MECHS.exe
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\StudentVoting_MECHS.pdb
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\obj\Debug\StudentVoting_MECHS.exe
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\obj\Debug\StudentVoting_MECHS.pdb
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Abstractions.dll
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Client.Lightweight.dll
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Abstractions.pdb
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Abstractions.xml
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Client.Lightweight.pdb
+C:\C# Projects\StudentVoting_MECHS\StudentVoting_MECHS\bin\Debug\Raven.Client.Lightweight.xml
